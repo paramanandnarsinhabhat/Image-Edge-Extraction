@@ -13,3 +13,14 @@ print(image.shape)
 
 ## Sobel Kernel
 
+#calculating the horizontal edges using sobel kernel
+edges_sobel_horizontal = sobel_h(image)
+
+#calculating the vertical edges using soble kernel
+edges_sobel_vertical = sobel_v(image)
+
+
+print(edges_sobel_horizontal)
+
+print(edges_sobel_vertical)
+
